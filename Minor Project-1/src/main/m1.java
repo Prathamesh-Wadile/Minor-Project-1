@@ -8,7 +8,7 @@ public class m1 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		//common_method1 g=new common_method1();
 		Shortest_path_time1 g1=new Shortest_path_time1();
-		System.out.println("\n\t\t\t------- WELCOME TO THE METRO TRAVEL SOLUTIONS -------");
+		System.out.println("\n\t\t\t--------- WELCOME TO THE METRO TRAVEL SOLUTIONS ---------");
 		BufferedReader inp = new BufferedReader(new InputStreamReader(System.in));
 		while(true)
 		{
