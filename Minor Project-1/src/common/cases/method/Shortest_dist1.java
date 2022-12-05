@@ -3,12 +3,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.StringTokenizer;
+//import java.util.StringTokenizer;
 import common.utlities.base1;
 import common.utlities.common_method1;
 
 
 public class Shortest_dist1 extends DisplayMap{
+	/*
 	public static String[] printCodelist()
 	{
 		System.out.println("List of station along with their codes:\n");
@@ -53,13 +54,14 @@ public class Shortest_dist1 extends DisplayMap{
 		}
 		return codes;
 	}
+	*/
 	public void Shortest_distance(BufferedReader inp) throws NumberFormatException, IOException {
 		ArrayList<String> keys = new ArrayList<>(common_method1.vtces.keySet());
-		String codes[] = printCodelist();
-		System.out.println("\n1. TO ENTER SERIAL NO. OF STATIONS\n2. TO ENTER CODE OF STATIONS\n3. TO ENTER NAME OF STATIONS\n");
+		//String codes[] = printCodelist();
+		System.out.println("\n1. TO ENTER SERIAL NO. OF STATIONS\n2. TO ENTER NAME OF STATIONS\n");
 		System.out.println("ENTER YOUR CHOICE:");
-	        int ch = Integer.parseInt(inp.readLine());
-		int j;
+	    int ch = Integer.parseInt(inp.readLine());
+		//int j;
 			
 		String st1 = "", st2 = "";
 		System.out.println("ENTER THE SOURCE AND DESTINATION STATIONS");
@@ -68,6 +70,7 @@ public class Shortest_dist1 extends DisplayMap{
 		    st1 = keys.get(Integer.parseInt(inp.readLine())-1);
 		    st2 = keys.get(Integer.parseInt(inp.readLine())-1);
 		}
+		/*
 		else if (ch == 2)
 		{
 		    String a,b;
@@ -82,7 +85,8 @@ public class Shortest_dist1 extends DisplayMap{
 		           break;
 		    st2 = keys.get(j);
 		}
-		else if (ch == 3)
+		*/
+		else if (ch == 2)
 		{
 		    st1 = inp.readLine();
 		    st2 = inp.readLine();

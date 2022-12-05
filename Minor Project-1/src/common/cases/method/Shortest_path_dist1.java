@@ -15,14 +15,15 @@ public class Shortest_path_dist1 extends Shortest_time1 {
 		HashMap<String, Boolean> processed2 = new HashMap<>();
 		if(!base1.containsVertex(s1,common_method1.vtces) || !base1.containsVertex(s2,common_method1.vtces) || !this.hasPath(s1, s2, processed2))
 			System.out.println("THE INPUTS ARE INVALID");
+		
 		else 
 		{
 			ArrayList<String> str = this.get_Interchanges(this.Get_Minimum_Distance(s1, s2));
 			int len = str.size();
 			System.out.println("SOURCE STATION : " + s1);
-			System.out.println("SOURCE STATION : " + s2);
+			System.out.println("DESTINATION STATION : " + s2);
 			System.out.println("DISTANCE : " + str.get(len-1));
-			System.out.println("NUMBER OF INTERCHANGES : " + str.get(len-2));
+			//System.out.println("NUMBER OF INTERCHANGES : " + str.get(len-2));
 			//System.out.println(str);
 			System.out.println("~~~~~~~~~~~~~");
 			System.out.println("START  ==>  " + str.get(0));

@@ -30,7 +30,7 @@ public class common_method1 extends base1 {
 		g.addVertex("Pune City~B",vtces);
 		g.addVertex("Yerawada~B",vtces);
 		g.addVertex("Kalyani Nagar~B",vtces);
-		//g.addVertex("Phoenix Mall~B",vtces);
+		g.addVertex("Phoenix Mall~B",vtces);
 		
 		
 		g.addEdge("PCMC~V", "Nashik Phata~V", 8,vtces);
@@ -49,7 +49,7 @@ public class common_method1 extends base1 {
 		g.addEdge("Civil Court~VB", "Pune City~B", 5,vtces);
 		g.addEdge("Pune City~B", "Yerwada~B", 6,vtces);
 		g.addEdge("Yerawada~B", "Kalyani Nagar~B", 5,vtces);
-		//g.addEdge("Kalyani Nagar~B", "Phoenix Mall~B", 7,vtces);
+		g.addEdge("Kalyani Nagar~B", "Phoenix Mall~B", 7,vtces);
 		
 	}
 
