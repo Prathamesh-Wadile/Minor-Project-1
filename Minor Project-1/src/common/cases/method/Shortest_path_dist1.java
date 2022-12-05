@@ -24,7 +24,7 @@ public class Shortest_path_dist1 extends Shortest_time1 {
 			System.out.println("DESTINATION STATION : " + s2);
 			System.out.println("DISTANCE : " + str.get(len-1));
 			//System.out.println("NUMBER OF INTERCHANGES : " + str.get(len-2));
-			//System.out.println(str);
+			System.out.println(str);
 			System.out.println("~~~~~~~~~~~~~");
 			System.out.println("START  ==>  " + str.get(0));
 			for(int i=1; i<len-3; i++)
