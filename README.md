@@ -1,6 +1,6 @@
 # Minor-Project-1
 
-his repository contains all the files related to our minor project.
+This repository contains all the files related to our minor project.
 
 Metro Travel Solution - Algorithm Based Travel Solution in Metropolitan Cities.
 
